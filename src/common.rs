@@ -1356,6 +1356,7 @@ pub async fn secure_tcp(conn: &mut Stream, key: &str) -> ResultType<()> {
     let rs_pk = get_rs_pk(key);
     if !key.is_empty() {
         return Ok(());
+    }
 }
 
 #[inline]
